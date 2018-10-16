@@ -3,19 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-// Sidebar
-import { SidebarModule } from 'ng-sidebar';
-import { SidebarComponent } from './components/shared/sidebar/sidebar.component';
-
-
 @NgModule({
   declarations: [
-    AppComponent,
-    SidebarComponent
+    AppComponent
   ],
   imports: [
-    BrowserModule,
-    SidebarModule.forRoot()
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
