@@ -1,14 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NbThemeModule } from '@nebular/theme';
 
 import { AppComponent } from './app.component';
+import { SidebarComponent } from './pages/sidebar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SidebarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NbThemeModule.forRoot({ name: 'default' })
   ],
   providers: [],
   bootstrap: [AppComponent]
