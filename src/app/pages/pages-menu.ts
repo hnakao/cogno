@@ -1,11 +1,10 @@
 import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
-  
   {
     title: 'Dashboard',
     icon: 'nb-grid-a-outline',
-    link: '/pages/cogno-dashboard', 
+    link: '/pages/cogno-dashboard',
     home: true,
   },
   {
@@ -27,9 +26,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     title: 'E-commerce',
     icon: 'nb-e-commerce',
     link: '/pages/dashboard',
-    
   },
-  
   {
     title: 'FEATURES',
     group: true,

@@ -11,11 +11,11 @@ import { NgxChartsModule } from '@swimlane/ngx-charts';
     CommonModule,
     ThemeModule,
      NgxEchartsModule,
-     NgxChartsModule
+     NgxChartsModule,
   ],
   declarations: [
-    NaturalPersonConsultComponent, 
-    NaturalPersonComponent
-  ]
+    NaturalPersonConsultComponent,
+    NaturalPersonComponent,
+  ],
 })
 export class NaturalPersonModule { }

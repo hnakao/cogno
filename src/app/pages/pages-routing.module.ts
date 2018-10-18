@@ -13,20 +13,20 @@ import { JuridicPersonComponent } from './juridic-person/juridic-person.componen
 
 const routes: Routes = [{
   path: '',
-  component: PagesComponent, 
+  component: PagesComponent,
   children: [
   {
     path: 'cogno-dashboard',
     component: CognoDashboardComponent,
-  },  
+  },
   {
     path: 'juridic-person',
     component: JuridicPersonComponent,
-  },  
+  },
   {
     path: 'natural-person',
     component: NaturalPersonComponent,
-  },  
+  },
   {
     path: 'dashboard',
     component: ECommerceComponent,

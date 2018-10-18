@@ -11,11 +11,11 @@ import { ThemeModule } from '../../@theme/theme.module';
     CommonModule,
     ThemeModule,
     NgxEchartsModule,
-    NgxChartsModule
+    NgxChartsModule,
   ],
   declarations: [
     JuridicPersonConsultComponent,
-    JuridicPersonComponent
-  ]
+    JuridicPersonComponent,
+  ],
 })
 export class JuridicPersonModule { }
