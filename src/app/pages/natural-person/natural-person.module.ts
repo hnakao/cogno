@@ -1,11 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ConsultaPersonaNaturalComponent } from './consulta-persona-natural/consulta-persona-natural.component';
-import { PersonaNaturalComponent } from './persona-natural.component';
+import { NaturalPersonConsultComponent } from './natural-person-consult/natural-person-consult.component';
+import { NaturalPersonComponent } from './natural-person.component';
 import { ThemeModule } from '../../@theme/theme.module';
 import { NgxEchartsModule } from 'ngx-echarts';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
-
 
 @NgModule({
   imports: [
@@ -14,6 +13,9 @@ import { NgxChartsModule } from '@swimlane/ngx-charts';
      NgxEchartsModule,
      NgxChartsModule
   ],
-  declarations: [ConsultaPersonaNaturalComponent, PersonaNaturalComponent]
+  declarations: [
+    NaturalPersonConsultComponent, 
+    NaturalPersonComponent
+  ]
 })
-export class PersonaNaturalModule { }
+export class NaturalPersonModule { }

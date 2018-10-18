@@ -6,8 +6,8 @@ import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ECommerceComponent } from './e-commerce/e-commerce.component';
 import { NotFoundComponent } from './miscellaneous/not-found/not-found.component';
-import { PersonaJuridicaComponent } from './persona-juridica/persona-juridica.component';
-import { PersonaNaturalComponent } from './persona-natural/persona-natural.component';
+import { NaturalPersonComponent } from './natural-person/natural-person.component';
+import { JuridicPersonComponent } from './juridic-person/juridic-person.component';
 
 
 
@@ -20,12 +20,12 @@ const routes: Routes = [{
     component: CognoDashboardComponent,
   },  
   {
-    path: 'persona-juridica',
-    component: PersonaJuridicaComponent,
+    path: 'juridic-person',
+    component: JuridicPersonComponent,
   },  
   {
-    path: 'persona-natural',
-    component: PersonaNaturalComponent,
+    path: 'natural-person',
+    component: NaturalPersonComponent,
   },  
   {
     path: 'dashboard',

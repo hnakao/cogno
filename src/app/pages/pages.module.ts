@@ -8,9 +8,10 @@ import { ThemeModule } from '../@theme/theme.module';
 import { MiscellaneousModule } from './miscellaneous/miscellaneous.module';
 
 //-----cogno
-import { PersonaJuridicaModule } from './persona-juridica/persona-juridica.module';
-import { PersonaNaturalModule } from './persona-natural/persona-natural.module';
+
+import { NaturalPersonModule } from './natural-person/natural-person.module';
 import { CognoDashboardModule } from './cogno-dashboard/cogno-dashboard.module';
+import { JuridicPersonModule } from './juridic-person/juridic-person.module';
 
 const PAGES_COMPONENTS = [
   PagesComponent,
@@ -23,8 +24,8 @@ const PAGES_COMPONENTS = [
     DashboardModule,
     ECommerceModule,
     MiscellaneousModule,
-    PersonaJuridicaModule,
-    PersonaNaturalModule,
+    JuridicPersonModule,
+    NaturalPersonModule,
     CognoDashboardModule
   ],
   declarations: [

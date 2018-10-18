@@ -1,4 +1,4 @@
-import { NbMenuItem } from '@nebular/theme'; 
+import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
   
@@ -11,12 +11,12 @@ export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: 'Persona Natural',
     icon: 'nb-person',
-    link: '/pages/persona-natural',
+    link: '/pages/natural-person',
   },
   {
     title: 'Persona Jurídica',
     icon: 'far fa-building',
-    link: '/pages/persona-juridica',
+    link: '/pages/juridic-person',
   },
   {
     title: 'IoT Dashboard',
